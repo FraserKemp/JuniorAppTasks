@@ -80,7 +80,7 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
    </li>
       <br/>
    <li>
-   <p>Let's create a profile component called 'UserProfile' in 'src/components/pages/UserProfile'. In here we can just return a 'Text' component with any placeholder text in.</p>
+   <p>Let's create a profile page called 'UserProfile' in 'src/components/pages/UserProfile'. In here we can create a UserProfile component that returns a 'Text' component with any placeholder text in.</p>
    <br/>
    <p>I have already added styles in ready for later on</p>
    </li>
