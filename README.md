@@ -231,3 +231,4 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
 - Check the spelling, sometimes something as small as a spelling mistake can trip you up.
 - using webstorm you can double tap 'shift' to then search for a file.
 - using webstorm you can press 'shift + cmd + F' to then search all files/ a specific directory for a specific key word.
+- A react component can only return one element! You cant return two views from a component you must only return one.
