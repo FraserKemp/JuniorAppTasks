@@ -85,7 +85,7 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
    <p>I have already added styles in ready for later on</p>
    </li>
       <br/>
-   <li>Now we have the UserProfile Page created we need to access it. To do this we will utilize the Menu component we have used previously. Create a new button in the Menu component to access the UserProfile page. ( apply the same styles as the other buttons )</li>
+   <li>Now we have the UserProfile Page created we need to access it. To do this we will utilize the Menu component we have used previously. Create a new button (TouchableOpacity) in the Menu component to access the UserProfile page. ( apply the same styles as the other buttons )</li>
    <br/>
    <li>
       <p>Currently the button isn't taking you anywhere. This is because we are using stack navigation and we have made no reference to the new UserProfile page yet. In App.js add in 'UserProfile' to your stack with 'Stack.Screen' with the options of "headerShown: false".</p>
