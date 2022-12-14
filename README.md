@@ -199,6 +199,8 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
    <br/>
    <li>
       <p>Lets add the second prop rightButtonIcon. We want to use the 'pencil-simple' icon from 'react-native-phosphor'. Again remember to add on the right button styles</p>
+     <br/>
+     <p>Feel free to have a search around the icons and pick a different one! We will later turn this into a very basic edit mode!</p>
    </li>
    <br/>
    <li>
