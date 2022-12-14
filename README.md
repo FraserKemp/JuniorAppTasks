@@ -115,7 +115,7 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
    <li>
       <p>You can see we have no page header meaning we can't navigate back. Now I would like you to create a 'PageHeader' component in 'src/components/PageHeader' directory. I have already created the style file with some styles ready to be added onto the SafeArea</p>
       <br/>
-      <p>To start we would like the PageHeader component to use <a href="https://reactnative.dev/docs/safeareaview">SafeAreaView</a> so that we are safe from clipping the top section of the phone (see docs). Inside the SafeArea just return some text out for now e.g. Test Title</p>
+      <p>To start we would like the PageHeader component to use <a href="https://reactnative.dev/docs/safeareaview">SafeAreaView</a> so that we are safe from clipping the top section of the phone (see docs). Inside the SafeArea we just added just return some text out using the Text component for now e.g. Test Title</p>
    </li>
    <br/>
    <li>
