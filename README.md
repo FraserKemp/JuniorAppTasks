@@ -103,6 +103,8 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
       <p>- Bio</p>
       <p>(set the username, name, bio to anything relevant for now)</p>
       <br/>
+      <p>We want the UserName, Name and Bio to be wrapped in a View with the style textContainer added onto it</p>
+      <br/>
       <p>I have already added in a placeholder profile image in to the assets folder. However, it is not linked in the Images enum (Images.js file) Add in a new object property called 'userProfile' This will allow you to reference 'Images.userProfile' (see the home screen for an example)</p>
       <br/>
 
@@ -116,6 +118,8 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
       <p>You can see we have no page header meaning we can't navigate back. Now I would like you to create a 'PageHeader' component in 'src/components/PageHeader' directory. I have already created the style file with some styles ready to be added onto the SafeArea</p>
       <br/>
       <p>To start we would like the PageHeader component to use <a href="https://reactnative.dev/docs/safeareaview">SafeAreaView</a> so that we are safe from clipping the top section of the phone (see docs). Inside the SafeArea we just added just return some text out using the Text component for now e.g. Test Title</p>
+      <br/>
+      <p>The PageHeader will NOT show, this leads us onto our next task</p>
    </li>
    <br/>
    <li>
