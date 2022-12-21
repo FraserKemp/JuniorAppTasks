@@ -279,6 +279,16 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
          </ol>
       </details>
    </li>
+   <li>
+      <p>Now when you first go to the screen you should see the text. But when you click the right header button you will see the TextInput instead of the text</p>
+      <br/>
+      <p>Now do step 18 for the username and the bio as well</p>
+   </li>
+   <li>
+      <p>We now have an edit mode working but no way to get out of edit mode. Let's add a button at the bottom of the component but in the main view using (TouchableOpacity) that shows the word 'Save'. use menu component for inspiration</p>
+      <br/>
+      <p>add on the button styles I have added. TouchableOpacity can take a onPress function. Have a go at setting editMode to false when clicking the button</p>
+   </li>
    
   </ol>
 
