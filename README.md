@@ -220,6 +220,65 @@ Only use the Hints available if you are absolutely stuck. Try your hardest to so
          </ol>
       </details>
    </li>
+   <br />
+   <li>
+      <p>We now want to create an edit mode within the UserProfile component</p>
+      <br/>
+      <p>The first thing we want to do is give the UserProfile page state, this will allow us to hold different values inside the component. we want to utalise <a href="https://reactjs.org/docs/hooks-state.html">useState</a> to do this and have two bits of state for now: editMode default to false, and name default to your name</p>
+      <br/>
+      <p>This will allow us to hold the state of the edit mode and the name we are changing in the TextInput in the next step</p>
+   </li>
+   <br />
+   <li>
+      <p>To get started editing lets get a TextInput showing in the UserProfile screen just below the 'name' Text.</p>
+      <br />
+      <p>TextInput is imported from 'react-native' and will need to be passed 3 props.</p>
+      <ol>
+      <li>onChangeText: this is a function that will run every time the text changes. e.g. we want to set the name state to the new value check the docs on how this is done</li>
+      <li>value: This is the first value that is passed into the TextInput and what will show when we first see this component we will want this to be our name state!</li>
+      <li>placeholder: this takes a string and is some placeholder text for when the field is empty e.g. Name</li>
+      </ol>
+      <br />
+      <p>Check the docs on TextInput if you get stuck <a href="https://reactnative.dev/docs/textinput">DOCS</a>. I have also added in 'input' as a style in the style file so add that onto the TextInput</p>
+   </li>
+   <br />
+   <li>
+      <p>You should now see the name and then a TextInput right below. If you don't go back to step 15 to have another read through</p>
+      <br />
+      <p>We now want to do these same two steps for the username and the bio. For this we will need new state using useState and new TextInputs below each bit of the text</p>
+   </li>
+   <li>
+      <p>You should now see 3 TextInput's where you can change the text in each one, if you don't see them go over steps 14 -> 16 again </p>
+      <br />
+      <p>Now we want to only show these TextInputs when we have edit mode enabled. First we will deal with setting editMode to true when pressing the top right button in the PageHeader.</p>
+      <br/>
+      <p>We have already made this easier for our sleves as we have a rightButtonPress prop where we can pass in a function that will execute what we want on press e.g. () => { // what we want to run in here }</p>
+      <br/>      
+      <p>Pass in the rightButtonPress prop to Pageheader and inside of the function set editMode to true. make sure PageHeader is using the rightButtonPress Prop</p>
+      <details>
+         <summary>Hint (only if needed)</summary>
+         <br/>
+         <ol>
+            <li>you can console.log(editMode) above the return of the UserProfile page to see if it is changing when clicking the top right button</li>
+         </ol>
+      </details>
+   </li>
+   <li>
+      <p>Now we can change edit mode between true and false we need to show the Inputs only when editMode is true. To do this we want to use the conditional operator. <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator#:~:text=The%20conditional%20(ternary)%20operator%20is,if%20the%20condition%20is%20falsy.">read about conditionals here</a> </p>
+      <br/>
+      <p>for now lets just get it working with the name text and name input components</p>
+      <br/>
+      <p>When edit mode is {true ? we want to show text input here : or we show the name text here }</p>
+      <details>
+         <summary>Hint (only if needed)</summary>
+         <br/>
+         <ol>
+            <li>when using code alongside components you have to wrap it in {}</li>
+            <li>the conditional operator is a '?'</li>
+            <li>Imagine the conditional operator as this sentence: if the variable infront of it is true show the first item ELSE if it is not true show the second item</li>
+         </ol>
+      </details>
+   </li>
    
   </ol>
 
